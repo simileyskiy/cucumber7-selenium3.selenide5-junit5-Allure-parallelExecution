@@ -11,7 +11,7 @@ mvn install
 ```
 There are 5 features in the src/test/resources folder, one of which is Login4Fails.feature with two unsuccessful tests, as a result of which a screenshot is taken after an unsuccessful step and added to the Allure report using Hook from src/main/hooks/Hook.java
 ## Особенности
-Cucumber 7 + Selenium 3/Selenide 5 при параллельном запуске сценариев\фич количество Threads управляется с помощью указания в:
+Cucumber 7 + Selenium 3/Selenide 5 when running scripts/features in parallel, the number of Threads is controlled by specifying in:
 - junit-platform.properties
 
 
